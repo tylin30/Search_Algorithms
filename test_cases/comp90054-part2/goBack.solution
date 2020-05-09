@@ -1,0 +1,12 @@
+# There should only be one correct path found for this map, regardless of the order nodes are appended.
+# expanded_nodes values of 21 or 25 are also fine.
+solution: """
+North North West West South South South South South South
+"""
+expanded_nodes: "131"
+rev_solution: """
+North North West West South South South South South South
+"""
+rev_expanded_nodes: "46"
+with_cyclecheck_nodes: "21"
+rev_with_cyclecheck_nodes: "25"
